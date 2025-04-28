@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Quicksand:wght@300..700&display=swap');
+@import "tailwindcss";
+
+
+
+html {
+  font-family: "Quicksand", sans-serif;
+  /* ตั้งค่า default เป็น Quicksand */
+}
+
+.font-gochi {
+  font-family: "Gochi Hand", cursive;
+}
+
+.font-quicksand {
+  font-family: "Quicksand", sans-serif;
+}
