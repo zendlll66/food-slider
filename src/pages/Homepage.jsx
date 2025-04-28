@@ -13,11 +13,11 @@ const Homepage = () => {
     ];
     const titles = ['Food 1', 'Food 2', 'Food 3', 'Food 4', 'Food 5'];
     const descriptions = [
-        'Delicious food with amazing flavors...',
-        'Fresh and healthy ingredients...',
-        'Exquisite taste and perfect balance...',
-        'A treat for your senses...',
-        'Satisfy your cravings...'
+        'Delicious food with amazing flavors that will tantalize your taste buds. Each bite brings a burst of delightful spices and fresh ingredients, carefully selected to create a harmonious balance of taste and texture.',
+        'Fresh and healthy ingredients to enjoy in every meal. Packed with nutrients and vitamins, this dish is perfect for anyone looking to indulge in a wholesome, yet delicious, experience. A great choice for those who prioritize their well-being.',
+        'Exquisite taste and perfect balance come together in this dish. With a fusion of flavors, each component enhances the other to provide a memorable dining experience. The harmony of textures and tastes will leave you wanting more.',
+        'A treat for your senses, full of flavor and vibrant colors. Every element in this dish is carefully crafted to offer a satisfying and indulgent meal. Perfectly cooked, rich in aroma, and with an unforgettable taste.',
+        'Satisfy your cravings with this tasty dish that combines the best of both worlds – savory and sweet, light and hearty. The diverse flavors come together beautifully, offering a delicious solution to all your hunger pangs.'
     ];
 
     const [rotation, setRotation] = useState(55);
