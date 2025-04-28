@@ -75,7 +75,7 @@ const Homepage = () => {
                     <div className="w-1/2 text-white p-20 space-y-10 " data-aos="fade-left">
                         <h1 className="text-5xl transition-all duration-500">{titles[currentIndex]}</h1>
                         <p className='transition-all duration-500'>{descriptions[currentIndex]}</p>
-                        <button className="bg-[#F28A38] border-[1px] border-white border-b-4 shadow-lg/30 hover:scale-105 transition-all duration-400 shadow-[#F28A38] p-2 rounded-2xl text-[#10121a]">
+                        <button className="bg-[#F28A38] border-[1px] border-white border-b-4 shadow-lg/30 hover:scale-125 transition-all duration-400 shadow-[#F28A38] p-2 rounded-2xl text-[#10121a]">
                             check it!!
                         </button>
                     </div>
@@ -84,8 +84,8 @@ const Homepage = () => {
                 {/* ปุ่มหมุน */}
                 <div className='absolute flex z-30 w-full top-1/2' data-aos="fade-up">
                     <div className='flex flex-row items-center w-full justify-center space-x-300'>
-                        <LuCircleChevronLeft size={50} color='white' onClick={rotateLeft} className="cursor-pointer" />
-                        <LuCircleChevronRight size={50} color='white' onClick={rotateRight} className="cursor-pointer" />
+                        <LuCircleChevronLeft size={50} color='white' onClick={rotateLeft} className="cursor-pointer hover:scale-125 transition-all duration-300" />
+                        <LuCircleChevronRight size={50} color='white' onClick={rotateRight} className="cursor-pointer hover:scale-125 transition-all duration-300" />
                     </div>
                 </div>
 
